@@ -18,25 +18,80 @@
     height: 100px;
     background: red;
 }
+
+/* ESERCIZIO 2 */
+
+.ex-2-square {
+    transition: width 2s;
+}
+
+.ex-2-square:active {
+    width: 100%;
+}
 .ex-3-square {
     width: 100px;
     height: 100px;
     background: red;
 }
+
+/* ESERCIZIO 3 */
+
+.ex-3-square {
+    transition: 1s;
+}
+
+.ex-3-square:hover {
+    border-radius: 100%;
+
+}
+
 .ex-4-square {
     width: 100px;
     height: 100px;
     background: red;
 }
+
+/* ESERCIZIO 4 */
+
+.ex-4-square {
+    transition: 1s;
+}
+
+.ex-4-square:hover {
+    opacity: 0%;
+}
+
 .ex-5-square {
     margin: 20px;
     width: 60px;
     height: 60px;
     background: red;
 }
+
+/* ESERCIZIO 5 */
+
+.ex-5-square {
+    transition: 1s;
+}
+
+.ex-5-square:hover {
+    transform: scale(2);
+}
+
+.ex-5-square:active {
+    transform: scale(0.5);
+}
+
+
 .ex-6-img, .ex-7-img, .ex-8-img {
     width: 500px;
 }
+
+/* ESERCIZIO 6 */
+
+.ex-6-img:hover {
+    filter: grayscale();
+} 
 
 .ex-9-img {
     margin: 50px 100px;
